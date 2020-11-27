@@ -1,0 +1,12 @@
+[user]
+    email = jeffwayne256@gmail.com
+    name = Jeffrey Allen
+
+[push]
+    default = current
+
+[color]
+    ui = true
+
+[core]
+    editor = code --wait
