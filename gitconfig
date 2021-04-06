@@ -15,4 +15,4 @@
     date = short
 
 [format]
-    pretty = format"%h %C(yellow)%ad %Cred%an %Cgreen%s%Creset"
+    pretty = format:"%h %C(yellow)%ad %Cred%an %Cgreen%s%Creset"
