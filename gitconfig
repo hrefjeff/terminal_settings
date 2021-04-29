@@ -9,6 +9,7 @@
     ui = true
 
 [core]
+    excludesfile = ~/.gitignore
     editor = code --wait
 
 [log]
