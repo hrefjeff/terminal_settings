@@ -5,6 +5,7 @@ import os
 home_dir = os.path.expanduser('~')
 #filename = 'vimrc'
 #filename = 'bashrc'
+#filename = 'gitconfig'
 filename = 'aliases'
 
 thefile = os.path.join(home_dir, '.' + filename)
