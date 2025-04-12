@@ -1,0 +1,16 @@
+#!/bin/sh
+#
+# An example hook script to verify what is about to be committed.
+# Called by "git commit" with no arguments.  The hook should
+#
+
+GREEN="\033[32m"
+RESET="\033[0m"
+
+if terraform fmt -check -diff -recursive . > /dev/null 2>&1; then
+  exit 0
+else
+  terraform fmt -recursive . > /dev/null 2>&1
+  echo "${GREEN}formatted terraform files${RESET}"
+  git add *.tf
+fi
