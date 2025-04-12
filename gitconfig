@@ -1,19 +1,24 @@
+# This is Git's per-user configuration file.
 [user]
-    email = jeffwayne256@gmail.com
-    name = Jeffrey Allen
-
-[push]
-    default = current
-
-[color]
-    ui = true
+  # Please adapt and uncomment the following lines:
+  name = Jeffrey Allen
+  email = jeffwayne256@gmail.com
 
 [core]
-    excludesfile = ~/.gitignore
-    editor = code --wait
+  excludefile = ~/.gitignore_global
+  excludesfile = /Users/jeff/.gitignore_global
+
+[push]
+  default = current
+
+[color]
+  ui = true
 
 [log]
-    date = short
+  date = short
 
 [format]
-    pretty = format:"%h %C(yellow)%ad %Cred%an %Cgreen%s%Creset"
+  pretty = format:"%h %C(yellow)%ad %Cred%an %Cgreen%s%Creset"
+
+[init]
+  templateDir = ~/.git-templates
