@@ -69,5 +69,3 @@ set smarttab
 """ and switching buffers
 """""""""""""""""""""""""""""""
 au BufReadPost * if line("'\'") > 1 && line("'\'") <= line("$") | exe "normal! g'\"" | endif
-
-
