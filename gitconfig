@@ -6,7 +6,6 @@
 
 [core]
   excludefile = ~/.gitignore_global
-  excludesfile = /Users/jeff/.gitignore_global
 
 [push]
   default = current
