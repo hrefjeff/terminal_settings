@@ -6,6 +6,7 @@
 
 [core]
   excludefile = ~/.gitignore_global
+  editor = vim
 
 [push]
   default = current
